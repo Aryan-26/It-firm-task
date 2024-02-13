@@ -1,0 +1,50 @@
+
+/* src/AboutUs.css */
+/* src/AboutUs.css */
+.about-container {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #333;
+     max-width: 1200px;
+     margin: auto;
+     padding: 20px;
+   }
+   
+   .about-container h1, .about-container h2 {
+     color: #007bff; /* A blue color for headings */
+   }
+   
+   .company-overview, .mission, .team, .achievements {
+     margin-bottom: 40px;
+   }
+   
+   .team-members {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+   }
+   
+   .team-member {
+     text-align: center;
+     width: 200px;
+     margin: 10px;
+   }
+   
+   .team-member img {
+     width: 100%;
+     border-radius: 50%;
+     margin-bottom: 10px;
+   }
+   
+   .achievements ul {
+     list-style-type: none;
+   }
+   
+   .achievements li::before {
+     content: '✓';
+     color: #007bff; /* Match the heading color */
+     font-weight: bold;
+     display: inline-block; 
+     width: 1em;
+     margin-left: -1em;
+   }
+   

@@ -6,7 +6,7 @@ function Signup() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would usually send the credentials to the backend to create an account
+   
     console.log('Signing up with', email, password);
   };
 

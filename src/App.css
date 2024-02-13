@@ -6,7 +6,7 @@
   color: white;
   padding: 15px;
   display: flex;
-  justify-content: space-between; /* Aligns items along the main axis, distributing the extra space between them */
+  justify-content: space-between; 
   align-items: center;
 }
 
@@ -155,9 +155,6 @@ body, html {
   }
 }
 
-
-/* Add to or update your src/App.css file */
-
 /* Services Section */
 #services {
   text-align: center;
@@ -219,7 +216,6 @@ body, html {
   border-radius: 5px;
 }
 
-/* Reusing the button style from the previous step */
 .button {
   width: 100%;
   cursor: pointer;

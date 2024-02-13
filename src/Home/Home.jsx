@@ -25,7 +25,7 @@ function Home() {
             <h3>Mobile App Development</h3>
             <p>Designing user-friendly mobile applications to engage your audience.Stay ahead in the mobile era with our cutting-edge Android app development services. Our skilled developers create intuitive and feature-rich applications that resonate with your target audience. Whether you're launching a new product or enhancing user engagement, our Android solutions are designed to deliver results.</p>
           </div>
-          {/* Add more services as needed */}
+          
         </section>
 
         {/* Features Section */}
@@ -45,7 +45,7 @@ function Home() {
             <h3>Expert Team</h3>
             <p>Our team of experts is dedicated to delivering excellence in every project.</p>
           </div>
-          {/* Add more features as needed */}
+         
         </section>
 
         {/* CTA Section */}

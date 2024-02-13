@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css'; // Ensure this is correctly importing your CSS file
+import '../App.css'; 
 
 function Signup() {
   const [email, setEmail] = useState('');
@@ -9,7 +9,7 @@ function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Signing up with', email, password);
-    // Implement your signup logic here
+  
   };
 
   return (
